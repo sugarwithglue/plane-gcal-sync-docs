@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy &mdash; Plane GCal Sync</title>
+<style>
+body{max-width:640px;margin:60px auto;padding:0 16px;color:#1a1a1a;
+font:16px/1.6 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+h1{font-size:1.6rem;margin-bottom:4px}
+h2{font-size:1.05rem;margin-top:30px}
+.sub{color:#666;margin-top:0;font-size:.9rem}
+a{color:#2b5fd9}
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p class="sub">Plane GCal Sync &middot; Last updated 12 October 2026</p>
+
+<h2>Summary</h2>
+<p>Plane GCal Sync is a personal script with a single user. It runs locally on that user's
+own computer, talks only to Plane and to Google Calendar, and sends data to no one else.
+There is no server, no database, no analytics, and no third party involved.</p>
+
+<h2>What the app accesses</h2>
+<p>The app requests one Google OAuth scope,
+<code>https://www.googleapis.com/auth/calendar</code>, which lets it read and write events
+in the signed-in user's own Google Calendar. It uses this solely to create, update and
+remove calendar events corresponding to tasks in that user's private Plane workspace.</p>
+
+<h2>What is stored, and where</h2>
+<p>Two files are written to the user's own computer and never leave it: an OAuth token
+file, so the script can run unattended, and a state file recording which task maps to
+which event, so repeat runs update events instead of duplicating them. Neither is
+uploaded or transmitted anywhere other than to Google's own APIs during normal
+operation.</p>
+
+<h2>What is shared</h2>
+<p>Nothing. No data is sold, rented, published or disclosed to any third party. There are
+no advertisers, trackers, analytics providers or subprocessors. Information obtained
+through Google APIs is not used to develop, improve or train any generalized or large
+language model.</p>
+
+<h2>Retention and deletion</h2>
+<p>Data is retained only while the script is in use. Deleting the local token and state
+files removes everything stored. Access can be revoked at any time at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+which immediately ends the app's ability to reach the calendar.</p>
+
+<h2>Limited Use disclosure</h2>
+<p>This application's use and transfer of information received from Google APIs adheres to
+the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
+Services User Data Policy</a>, including its Limited Use requirements.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:shukuroglou.marco@gmail.com">shukuroglou.marco@gmail.com</a></p>
+</body>
+</html>
